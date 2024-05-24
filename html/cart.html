@@ -1,0 +1,66 @@
+<div class="page-banner" style="background-image: url(assets/uploads/test.jpg)">
+    <div class="overlay"></div>
+    <div class="page-banner-inner">
+        <h1>gros titre</h1>
+    </div>
+</div>
+<div class="page">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+                    <h2 class="text-center">panier vide</h2></br>
+                    <h4 class="text-center">Ajoutez des produits au panier afin de les visualiser ici.</h4>
+                <form action="" method="post">
+				<div class="cart">
+                    <table class="table table-responsive table-hover table-bordered">
+                        <tr>
+                            <th>#</th>
+                            <th>nom</th>
+                            <th>produit</th>
+                            <th>prix</th>
+                            <th>unité</th>
+                            <th>total</th>
+                            <th>test</th>
+                            <th class="text-right">test 2</th>
+                            <th class="text-center" style="width: 100px;">test 2</th>
+                        </tr>
+                        <tr>
+                            <td>valeur de i</td>
+                            <td>
+                                <img src="assets/uploads/test.jpg" alt="">
+                            </td>
+                            <td>nom</td>
+                            <td>prenom</td>
+                            <td>couleur</td>
+                            <td>test 2</td>
+                            <td>
+                                <input type="hidden" name="product_id[]" value="test">
+                                <input type="hidden" name="product_name[]" value="yest 2">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" name="quantity[]" value="5" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric">
+                            </td>
+                            <td class="text-right">
+                            </td>
+                            <td class="text-center">
+                                <a onclick="return confirmDelete();" href="cart-item-delete.php?id=&size=&color=" class="trash"><i class="fa fa-trash" style="color:red;"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="7" class="total-text">Total</th>
+                            <th class="total-amount">totaux</th>
+                            <th></th>
+                        </tr>
+                    </table> 
+                </div>
+
+                <div class="cart-buttons">
+                    <ul>
+                        <li><input type="submit" value="soumettre" class="btn btn-primary" name="form1"></li>
+                        <li><a href="index.php" class="btn btn-primary">home</a></li>
+                        <li><a href="checkout.php" class="btn btn-primary">paiement</a></li>
+                    </ul>
+                </div>
+                </form>               
+			</div>
+		</div>
+	</div>
+</div>
